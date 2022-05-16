@@ -1,3 +1,3 @@
-function myFunction() {
-    alert("WYGRALES IPHONE 6XS!!!11!!!")
+function image() {
+    window.alert("Póki co brak xd")
 }
