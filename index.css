@@ -4,9 +4,15 @@
     background: black;
 }
 
+
+
 span{
     color: purple;
     font-family: "Bauhaus 93";
+}
+
+span:hover{
+    background-size: 4px 6px;
 }
 
 nav{
@@ -116,34 +122,36 @@ nav ul li a:hover{
     font-family: "Agency FB";
 }
 
-.skills ul li p:hover{
-    transform: scaleX(2);
+.moreInformation{
+    border: 5px dotted purple;
+    border-radius: 23px;
+    padding: 25px;
+    text-align: center;
 }
 
-.orbit{
-    display: grid;
-    min-height: 100vh;
-    place-content: center;
+.moreInformation p {
+    color: whitesmoke;
+    font-size: 22px;
+    text-align: center;
+    line-height: 100px;
+    font-family: "Agency FB";
 }
 
-.orbit ul li{
-    list-style: none;
+.chapter1 {
+    color: white;
+    font-size: 50px;
+    font-family: "Arial Narrow";
+    text-align: center;
 }
 
-.orbit .center-image{
-    width: 10rem;
-    position: relative;
-}
 
-.orbit .center-image img{
-    position: absolute;
-    transition: opacity 500ms;
-}
 
-.orbit .center-image img:not(:first-child):hover{
-    opacity: 0;
+.chapter2 {
+    color: white;
+    font-size: 50px;
+    font-family: "Arial Narrow";
+    text-align: center;
 }
-
 
 
 
