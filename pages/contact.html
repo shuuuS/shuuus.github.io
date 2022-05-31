@@ -7,13 +7,38 @@
 </head>
 <body>
 <nav>
-    <ul class="links">
-        <li><p>shuuuS.dev</p></li>
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="https://github.com/shuuuS" target="_blank">GitHub</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
+    <div class="links">
+        <a href="../index.html">Home</a></li>
+        <ul>
+            <li><a href="#">Main</a></li>
+            <li><a href="#">Language</a></li>
+        </ul>
+    </div>
+    <a href="about.html">About</a>
+    <a href="https://github.com/shuuuS" target="_blank">GitHub</a>
+    <a href="contact.html">Contact</a>
+
 </nav>
+
+<fieldset class="form1">
+    <legend>Personalia:</legend>
+    <p>Email: <input type="email" size="25" maxlength="25"></p>
+    <p>Phone: <input type="text" size="9" maxlength="9"></p>
+    <p>Password: <input type="password" size="25" maxlength="25"></p>
+    <p>Wciśnij mnie:
+        <input type="checkbox" name="check1" value="1">
+        <input type="checkbox" name="check2" value="2">
+        <input type="checkbox" name="check3" value="3">
+    </p>
+    <p>Tu też wciśnij:
+        <input type="radio" name="radio1" value="1" id="male">
+        <input type="radio" name="radio1" value="2" checked>
+        <input type="radio" name="radio1" value="3">
+    </p>
+    <textarea rows="4" cols="50">
+        Enter text here...
+    </textarea>
+</fieldset>
+
 </body>
 </html>
